@@ -1,0 +1,7 @@
+{
+  "name": "ngFrmwk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
