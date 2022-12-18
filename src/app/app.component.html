@@ -1,3 +1,16 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane>
+    <ion-menu type="reveal" contentId="main-content">
+      <ion-content class="ion-padding">
+        <ion-list>
+            <ion-list-header>Welcome Guest</ion-list-header>
+            <ion-item>
+              <ion-button>Login</ion-button>
+              <ion-button>Register</ion-button>
+            </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+  </ion-split-pane>
+  <ion-router-outlet id="main-content"></ion-router-outlet>
 </ion-app>
